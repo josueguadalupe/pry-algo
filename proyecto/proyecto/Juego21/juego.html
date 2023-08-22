@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <style>
+            body {
+                background-image: url("./img/wallhaven-49kymw_2560x1080.jpg")
+            }
+        </style>
+        <div class="card">
+            <div class="overlay">
+                <h1 class="title">Juego de 21</h1>
+                <button class="btn-class-name" id="startButton">
+                    <span class="back"></span>
+                    <span class="front start-btn">Empezar</span>
+                </button>
+            </div>
+            <button class="custom-btn btn-in-card" id="playerButton">Jugador</button>
+            <button class="custom-btn btn-in-card" id="machineButton">Maquina</button>
+            <div class="results">
+                <p>Suma del Jugador: <span id="playerSum">0</span></p>
+                <p>Suma de la Maquina: <span id="machineSum">0</span></p>
+                <p>Cartas del Jugador: <span id="playerCards"></span></p>
+                <p>Cartas de la Maquina: <span id="machineCards"></span></p>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/juego.js"></script>
+</body>
+</html>
